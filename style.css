@@ -1,13 +1,47 @@
-header {
-    background-color: #FD739C;
-    font-color: #fff;
+html {
+    box-sizing: border-box;
 }
 
-h1,h2 {
-    font-family: Arial;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
-body p{
+body {
     font-size: 22px;
     line-height: 34px;
+}
+
+header,
+nav {
+    background-color: #fd739c;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+}
+header p {
+    margin-top: 5px;    
+    display: block;
+}
+
+nav {
+    padding: 10px 0;
+}
+  
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    line-height: 44px;
+
+}
+
+main > section:first-child {
+    padding: 50px 0;
 }
